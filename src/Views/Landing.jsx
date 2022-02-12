@@ -34,7 +34,13 @@ const Landing = () => {
             Made by Arya Buddha
           </p>
           <IconContext.Provider value={{}}>
-            <AiOutlineGithub size={60} />
+            <a
+              href="https://github.com/AryaBuddha/ReactJS-Template"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineGithub size={60} />
+            </a>
           </IconContext.Provider>
         </div>
       </motion.div>
